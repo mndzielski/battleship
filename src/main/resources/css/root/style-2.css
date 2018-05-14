@@ -1,0 +1,106 @@
+.root {
+    -fx-background-image: url('/images/wp1853050.jpg');
+    -fx-background-size: cover;
+}
+
+.container-panel {
+    -fx-background-color: rgba(82, 58, 0, 0.65);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 10, 0, 0, 0);
+    -fx-padding: 20;
+}
+
+.primary-button {
+    -fx-background-insets: 0, 2;
+    -fx-background-radius: 2, 0;
+    -fx-background-color: #efe790;
+}
+
+.primary-button:hover {
+    -fx-background-color: #efe558;
+}
+
+.primary-button:focused {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.27), 10, 0, 0, 0);
+}
+
+.primary-label {
+    -fx-fill: black !important;
+    -fx-padding: 0 0 0 20;
+    -fx-font-size: 25;
+    -fx-font-family: "Roboto Light";
+}
+
+.secondary-label {
+    -fx-fill: black !important;
+    -fx-font-size: 17;
+    -fx-font-family: "Roboto";
+}
+
+.secondary-label.no-padding {
+    -fx-padding: 0 0 0 0;
+}
+
+.primary-radio {
+    -fx-fill: black !important;
+    -fx-padding: 0 0 0 20;
+    -fx-font-size: 15;
+    -fx-font-family: "Roboto Light";
+}
+
+.custom-font-color {
+    -fx-text-fill: #efe790;
+}
+
+.custom-title {
+    -fx-font-size: 50;
+    -fx-font-family: 'Roboto';
+}
+
+.ship-font {
+    -fx-font-family: 'Stencil'
+}
+
+.image-dropshadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 1), 10, 0, 0, 0);
+}
+
+.list-view .list-cell:focused {
+    -fx-fill: black;
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell .visible-label, .list-view .list-cell .chart-title {
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell .primary-label, .list-view .list-cell .secondary-label, .list-view .list-cell .primary-radio {
+    -fx-text-fill: black;
+}
+
+.list-view .list-cell:even, .list-view .list-cell:odd {
+    -fx-background-color: #efe790;
+    -fx-text-fill: black;
+}
+
+.img-btn-translate {
+    -fx-translate-x: 7;
+}
+
+.stack-pane-field {
+    -fx-fill: white;
+    -fx-background-color: white;
+}
+
+.rectangle-base {
+    -fx-stroke-width: 1;
+    -fx-stroke: transparent;
+}
+
+.rectangle-battlefield {
+    -fx-fill: white;
+}
+
+.stack-pane-base {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+}

@@ -1,0 +1,36 @@
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.SmallBackButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.SmallImageButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nLabel?>
+<GridPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.game.StartGameController"
+          alignment="center" hgap="10" vgap="10">
+    <GridPane hgap="10" vgap="10" GridPane.columnIndex="0" GridPane.rowIndex="0" styleClass="container-panel, custom-pane-image"
+              alignment="TOP_CENTER" prefWidth="480" prefHeight="550">
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="0" alignment="CENTER">
+            <Pane HBox.hgrow="ALWAYS"/>
+            <I18nLabel i18n="start.game.set.up.ships" alignment="CENTER" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+        </HBox>
+        <GridPane fx:id="battlefieldPane" GridPane.columnIndex="0" GridPane.rowIndex="1" alignment="CENTER">
+        </GridPane>
+        <GridPane GridPane.columnIndex="0" GridPane.rowIndex="2" vgap="10" alignment="CENTER">
+            <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <Pane HBox.hgrow="ALWAYS" minWidth="10"/>
+                <I18nLabel fx:id="conflictLabel" i18n="start.game.conflict" textAlignment="CENTER" visible="false" styleClass="secondary-label, no-padding, custom-font-color"
+                           GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Pane HBox.hgrow="ALWAYS" minWidth="10"/>
+            </HBox>
+            <Separator GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <HBox alignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                <SmallBackButton i18n="start.game.back" onAction="#handleBack"/>
+                <Pane HBox.hgrow="ALWAYS" minWidth="10"/>
+                <SmallImageButton fx:id="nextButton" i18n="start.game.next" onAction="#handleNext"/>
+            </HBox>
+
+        </GridPane>
+    </GridPane>
+</GridPane>

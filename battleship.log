@@ -1,0 +1,100 @@
+2018-03-14 01:00:45,377 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-03-14 01:00:49,267 [JavaFX Application Thread] INFO  (RootController.java:146) - Zamykanie
+  2018-03-14 01:46:24,960 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-03-14 01:46:31,079 [pool-2-thread-1] INFO  (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+  2018-03-14 01:46:31,085 [pool-2-thread-1] INFO  (Version.java:41) - HHH000412: Hibernate Core {4.2.10.Final}
+  2018-03-14 01:46:31,088 [pool-2-thread-1] INFO  (Environment.java:238) - HHH000206: hibernate.properties not found
+  2018-03-14 01:46:31,090 [pool-2-thread-1] INFO  (Environment.java:345) - HHH000021: Bytecode provider name : javassist
+  2018-03-14 01:46:31,421 [pool-2-thread-1] WARN  (DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  2018-03-14 01:46:31,425 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+  2018-03-14 01:46:31,425 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: true
+  2018-03-14 01:46:31,428 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 01:46:31,428 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+  2018-03-14 01:46:31,895 [pool-2-thread-1] INFO  (Dialect.java:130) - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2018-03-14 01:46:32,075 [pool-2-thread-1] INFO  (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+  2018-03-14 01:46:32,081 [pool-2-thread-1] INFO  (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+  2018-03-14 01:46:32,526 [pool-2-thread-1] INFO  (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+  2018-03-14 01:46:32,526 [pool-2-thread-1] INFO  (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+  2018-03-14 01:46:32,530 [pool-2-thread-1] INFO  (SchemaUpdate.java:205) - HHH000396: Updating schema
+  2018-03-14 01:46:32,554 [pool-2-thread-1] INFO  (TableMetadata.java:66) - HHH000261: Table found: H2_I5B4S1.PUBLIC.GAME
+  2018-03-14 01:46:32,554 [pool-2-thread-1] INFO  (TableMetadata.java:67) - HHH000037: Columns: [id, win]
+  2018-03-14 01:46:32,555 [pool-2-thread-1] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+  2018-03-14 01:46:32,556 [pool-2-thread-1] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary_key_2]
+  2018-03-14 01:46:32,557 [pool-2-thread-1] INFO  (SchemaUpdate.java:242) - HHH000232: Schema update complete
+  2018-03-14 01:46:33,095 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:160) - HHH000030: Cleaning up connection pool [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 01:51:13,840 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-03-14 01:51:28,664 [pool-2-thread-1] INFO  (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+  2018-03-14 01:51:28,674 [pool-2-thread-1] INFO  (Version.java:41) - HHH000412: Hibernate Core {4.2.10.Final}
+  2018-03-14 01:51:28,678 [pool-2-thread-1] INFO  (Environment.java:238) - HHH000206: hibernate.properties not found
+  2018-03-14 01:51:28,680 [pool-2-thread-1] INFO  (Environment.java:345) - HHH000021: Bytecode provider name : javassist
+  2018-03-14 01:51:29,149 [pool-2-thread-1] WARN  (DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  2018-03-14 01:51:29,158 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+  2018-03-14 01:51:29,159 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: true
+  2018-03-14 01:51:29,159 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 01:51:29,160 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+  2018-03-14 01:51:29,737 [pool-2-thread-1] INFO  (Dialect.java:130) - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2018-03-14 01:51:29,973 [pool-2-thread-1] INFO  (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+  2018-03-14 01:51:29,980 [pool-2-thread-1] INFO  (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+  2018-03-14 01:51:30,556 [pool-2-thread-1] INFO  (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+  2018-03-14 01:51:30,556 [pool-2-thread-1] INFO  (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+  2018-03-14 01:51:30,560 [pool-2-thread-1] INFO  (SchemaUpdate.java:205) - HHH000396: Updating schema
+  2018-03-14 01:51:30,583 [pool-2-thread-1] INFO  (TableMetadata.java:66) - HHH000261: Table found: H2_I5B4S1.PUBLIC.GAME
+  2018-03-14 01:51:30,583 [pool-2-thread-1] INFO  (TableMetadata.java:67) - HHH000037: Columns: [id, win]
+  2018-03-14 01:51:30,583 [pool-2-thread-1] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+  2018-03-14 01:51:30,584 [pool-2-thread-1] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary_key_2]
+  2018-03-14 01:51:30,585 [pool-2-thread-1] INFO  (SchemaUpdate.java:242) - HHH000232: Schema update complete
+  2018-03-14 01:51:31,158 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:160) - HHH000030: Cleaning up connection pool [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 01:51:35,121 [JavaFX Application Thread] INFO  (RootController.java:146) - Zamykanie
+  2018-03-14 02:03:12,338 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-03-14 02:03:16,968 [JavaFX Application Thread] INFO  (RootController.java:146) - Zamykanie
+  2018-03-14 02:23:05,633 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-03-14 02:23:16,201 [JavaFX Application Thread] INFO  (MainGameController.java:84) - PLAYER_TURN_START :: Początek tury gracza
+  2018-03-14 02:23:16,202 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:30) - PLAYER_TURN_START :: Początek tury gracza
+  2018-03-14 02:23:17,521 [JavaFX Application Thread] INFO  (MainGameController.java:122) - END_GAME_EVENT :: Zakończenie gry :: OPPONENT
+  2018-03-14 02:23:17,761 [pool-2-thread-1] INFO  (Version.java:37) - HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+  2018-03-14 02:23:17,767 [pool-2-thread-1] INFO  (Version.java:41) - HHH000412: Hibernate Core {4.2.10.Final}
+  2018-03-14 02:23:17,769 [pool-2-thread-1] INFO  (Environment.java:238) - HHH000206: hibernate.properties not found
+  2018-03-14 02:23:17,771 [pool-2-thread-1] INFO  (Environment.java:345) - HHH000021: Bytecode provider name : javassist
+  2018-03-14 02:23:18,166 [pool-2-thread-1] WARN  (DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  2018-03-14 02:23:18,170 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+  2018-03-14 02:23:18,171 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: true
+  2018-03-14 02:23:18,171 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 02:23:18,172 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+  2018-03-14 02:23:18,600 [pool-2-thread-1] INFO  (Dialect.java:130) - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2018-03-14 02:23:18,781 [pool-2-thread-1] INFO  (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+  2018-03-14 02:23:18,790 [pool-2-thread-1] INFO  (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+  2018-03-14 02:23:19,318 [pool-2-thread-1] INFO  (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+  2018-03-14 02:23:19,318 [pool-2-thread-1] INFO  (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+  2018-03-14 02:23:19,322 [pool-2-thread-1] INFO  (SchemaUpdate.java:205) - HHH000396: Updating schema
+  2018-03-14 02:23:19,342 [pool-2-thread-1] INFO  (TableMetadata.java:66) - HHH000261: Table found: H2_I5B4S1.PUBLIC.GAME
+  2018-03-14 02:23:19,342 [pool-2-thread-1] INFO  (TableMetadata.java:67) - HHH000037: Columns: [id, win]
+  2018-03-14 02:23:19,342 [pool-2-thread-1] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+  2018-03-14 02:23:19,343 [pool-2-thread-1] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary_key_2]
+  2018-03-14 02:23:19,344 [pool-2-thread-1] INFO  (DatabaseMetadata.java:146) - HHH000262: Table not found: user
+  2018-03-14 02:23:19,348 [pool-2-thread-1] INFO  (DatabaseMetadata.java:146) - HHH000262: Table not found: user
+  2018-03-14 02:23:19,350 [pool-2-thread-1] INFO  (DatabaseMetadata.java:146) - HHH000262: Table not found: user
+  2018-03-14 02:23:19,355 [pool-2-thread-1] INFO  (SchemaUpdate.java:242) - HHH000232: Schema update complete
+  2018-03-14 02:23:19,823 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:160) - HHH000030: Cleaning up connection pool [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 02:23:34,140 [pool-2-thread-1] WARN  (DriverManagerConnectionProviderImpl.java:98) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+  2018-03-14 02:23:34,140 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:134) - HHH000115: Hibernate connection pool size: 20
+  2018-03-14 02:23:34,141 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:137) - HHH000006: Autocommit mode: true
+  2018-03-14 02:23:34,141 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:151) - HHH000401: using driver [org.h2.Driver] at URL [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 02:23:34,141 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:156) - HHH000046: Connection properties: {user=sa, autocommit=true, release_mode=auto}
+  2018-03-14 02:23:34,213 [pool-2-thread-1] INFO  (Dialect.java:130) - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+  2018-03-14 02:23:34,221 [pool-2-thread-1] INFO  (TransactionFactoryInitiator.java:73) - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+  2018-03-14 02:23:34,221 [pool-2-thread-1] INFO  (ASTQueryTranslatorFactory.java:48) - HHH000397: Using ASTQueryTranslatorFactory
+  2018-03-14 02:23:34,230 [pool-2-thread-1] INFO  (SchemaUpdate.java:182) - HHH000228: Running hbm2ddl schema update
+  2018-03-14 02:23:34,231 [pool-2-thread-1] INFO  (SchemaUpdate.java:193) - HHH000102: Fetching database metadata
+  2018-03-14 02:23:34,232 [pool-2-thread-1] INFO  (SchemaUpdate.java:205) - HHH000396: Updating schema
+  2018-03-14 02:23:34,245 [pool-2-thread-1] INFO  (TableMetadata.java:66) - HHH000261: Table found: H2_I5B4S1.PUBLIC.GAME
+  2018-03-14 02:23:34,246 [pool-2-thread-1] INFO  (TableMetadata.java:67) - HHH000037: Columns: [id, win]
+  2018-03-14 02:23:34,246 [pool-2-thread-1] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+  2018-03-14 02:23:34,246 [pool-2-thread-1] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary_key_2]
+  2018-03-14 02:23:34,250 [pool-2-thread-1] INFO  (TableMetadata.java:66) - HHH000261: Table found: H2_I5B4S1.PUBLIC.USER
+  2018-03-14 02:23:34,251 [pool-2-thread-1] INFO  (TableMetadata.java:67) - HHH000037: Columns: [password, id, username]
+  2018-03-14 02:23:34,251 [pool-2-thread-1] INFO  (TableMetadata.java:69) - HHH000108: Foreign keys: []
+  2018-03-14 02:23:34,252 [pool-2-thread-1] INFO  (TableMetadata.java:70) - HHH000126: Indexes: [primary_key_27]
+  2018-03-14 02:23:34,253 [pool-2-thread-1] INFO  (SchemaUpdate.java:242) - HHH000232: Schema update complete
+  2018-03-14 02:23:34,465 [pool-2-thread-1] INFO  (DriverManagerConnectionProviderImpl.java:160) - HHH000030: Cleaning up connection pool [jdbc:h2:file:~/h2_I5B4S1]
+  2018-03-14 02:23:49,775 [JavaFX Application Thread] INFO  (RootController.java:147) - Zamykanie
+  

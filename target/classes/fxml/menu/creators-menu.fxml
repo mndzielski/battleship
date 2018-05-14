@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.BackButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nLabel?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.menu.CreatorsMenuController"
+          alignment="TOP_CENTER" hgap="10" vgap="2"
+          AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+    <BackButton i18n="menu.creators" onAction="#handleMainMenu" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <ListView GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <HBox alignment="CENTER" mouseTransparent="true">
+            <I18nLabel i18n="menu.creators.account" styleClass="primary-label" style="-fx-underline: true;"/>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" mouseTransparent="true">
+            <ImageView fx:id="avatar" fitHeight="50" fitWidth="50">
+                <Image url="@/images/loader.gif"/>
+            </ImageView>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Label fx:id="login" styleClass="secondary-label"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+        </HBox>
+
+        <VBox alignment="CENTER_LEFT" mouseTransparent="true">
+            <I18nLabel i18n="menu.creators.link" styleClass="secondary-label" style="-fx-underline: true;"/>
+            <Hyperlink fx:id="html" styleClass="secondary-label"/>
+        </VBox>
+
+        <VBox alignment="CENTER_LEFT" mouseTransparent="true" prefWidth="330">
+            <I18nLabel i18n="menu.creators.bio" styleClass="secondary-label" style="-fx-underline: true;"/>
+            <Label fx:id="bio" wrapText="true" styleClass="visible-label"/>
+        </VBox>
+    </ListView>
+</GridPane>

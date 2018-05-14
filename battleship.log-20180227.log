@@ -1,0 +1,35 @@
+2018-02-27 01:48:44,721 [main] INFO  (App.java:20) - BattleShip - Start
+  2018-02-27 01:49:01,199 [JavaFX Application Thread] INFO  (MainGameController.java:84) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:01,200 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:30) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:11,070 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:37) - PLAYER_TURN_END :: Koniec tury gracza
+  2018-02-27 01:49:11,073 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:84) - Gracz strzela w Position(x=8, y=5)
+  2018-02-27 01:49:11,890 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:94) - Gracz nie trafił nowa tura dla przeciwnika
+  2018-02-27 01:49:11,892 [JavaFX Application Thread] INFO  (MainGameController.java:91) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:11,893 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:29) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:11,893 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:36) - OPPONENT_TURN_END :: Koniec tury przeciwnika
+  2018-02-27 01:49:11,896 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:55) - Przeciwnik strzela w Position(x=3, y=5)
+  2018-02-27 01:49:12,703 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:63) - Przeciwnik trafił nowa tura dla niego
+  2018-02-27 01:49:12,703 [JavaFX Application Thread] INFO  (MainGameController.java:91) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:12,703 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:29) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:12,704 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:36) - OPPONENT_TURN_END :: Koniec tury przeciwnika
+  2018-02-27 01:49:12,705 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:55) - Przeciwnik strzela w Position(x=5, y=2)
+  2018-02-27 01:49:13,519 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:63) - Przeciwnik trafił nowa tura dla niego
+  2018-02-27 01:49:13,521 [JavaFX Application Thread] INFO  (MainGameController.java:91) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:13,522 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:29) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:13,522 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:36) - OPPONENT_TURN_END :: Koniec tury przeciwnika
+  2018-02-27 01:49:13,522 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:55) - Przeciwnik strzela w Position(x=8, y=4)
+  2018-02-27 01:49:14,336 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:66) - Przeciwnik nie trafił tura dla ciebie
+  2018-02-27 01:49:14,336 [JavaFX Application Thread] INFO  (MainGameController.java:84) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:14,337 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:30) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:14,966 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:37) - PLAYER_TURN_END :: Koniec tury gracza
+  2018-02-27 01:49:14,968 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:84) - Gracz strzela w Position(x=6, y=4)
+  2018-02-27 01:49:15,776 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:94) - Gracz nie trafił nowa tura dla przeciwnika
+  2018-02-27 01:49:15,777 [JavaFX Application Thread] INFO  (MainGameController.java:91) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:15,778 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:29) - OPPONENT_TURN_START :: Początek tury przeciwnika
+  2018-02-27 01:49:15,778 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:36) - OPPONENT_TURN_END :: Koniec tury przeciwnika
+  2018-02-27 01:49:15,779 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:55) - Przeciwnik strzela w Position(x=2, y=6)
+  2018-02-27 01:49:16,591 [JavaFX Application Thread] INFO  (PlayerBattlefield.java:66) - Przeciwnik nie trafił tura dla ciebie
+  2018-02-27 01:49:16,592 [JavaFX Application Thread] INFO  (MainGameController.java:84) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:16,592 [JavaFX Application Thread] INFO  (OpponentBattlefield.java:30) - PLAYER_TURN_START :: Początek tury gracza
+  2018-02-27 01:49:18,182 [JavaFX Application Thread] INFO  (RootController.java:146) - Zamykanie
+  

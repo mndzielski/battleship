@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.BackButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.ImageButton?>
+<?import java.lang.Double?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.menu.SettingsMenuController"
+          alignment="TOP_CENTER" hgap="10" vgap="2"
+          AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+    <BackButton i18n="menu.settings" onAction="#handleMainMenu" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <ListView GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <fx:define>
+            <Double fx:id="buttonWidth" fx:value="320.0"/>
+        </fx:define>
+        <ImageButton onAction="#handleSoundSettings" i18n="menu.settings.sound" url="/images/Sound_50px.png" styleClass="img-btn-translate" prefWidth="$buttonWidth"/>
+        <ImageButton onAction="#handleReset" i18n="menu.settings.reset" url="/images/Reset_50px.png" styleClass="img-btn-translate" prefWidth="$buttonWidth"/>
+    </ListView>
+</GridPane>

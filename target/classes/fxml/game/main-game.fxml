@@ -1,0 +1,39 @@
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nLabel?>
+<GridPane fx:id="container" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.game.MainGameController"
+          alignment="center" hgap="10" vgap="10">
+    <GridPane alignment="TOP_CENTER" hgap="10" vgap="10" GridPane.columnIndex="0" GridPane.rowIndex="0" styleClass="container-panel, custom-pane-image"
+              prefWidth="450" prefHeight="500">
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <I18nLabel i18n="main.game.opponent.board" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <I18nLabel i18n="main.game.board.checked" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Label fx:id="playerCheckedShipsSize" text="0" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Label fx:id="playerShipsSize" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+        </HBox>
+        <GridPane fx:id="mainContainer1" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        </GridPane>
+    </GridPane>
+
+    <GridPane alignment="TOP_CENTER" hgap="10" vgap="10" GridPane.columnIndex="1" GridPane.rowIndex="0" styleClass="container-panel, custom-pane-image"
+              prefWidth="450" prefHeight="500">
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <I18nLabel i18n="main.game.player.board" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <I18nLabel i18n="main.game.board.checked" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Label fx:id="opponentCheckedShipsSize" text="0" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+            <Label fx:id="opponentShipsSize" styleClass="secondary-label, no-padding, custom-font-color, ship-font"/>
+        </HBox>
+        <GridPane fx:id="mainContainer2" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        </GridPane>
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <Pane HBox.hgrow="ALWAYS"/>
+            <I18nButton onAction="#giveUp" styleClass="primary-button" i18n="main.game.give.up"/>
+        </HBox>
+    </GridPane>
+</GridPane>

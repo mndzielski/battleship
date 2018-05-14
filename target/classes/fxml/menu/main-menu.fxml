@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.button.ImageButton?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nLabel?>
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.menu.MainMenuController"
+          fx:id="mainMenuContainer"
+          AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0"
+          alignment="TOP_CENTER" hgap="10" vgap="10">
+    <GridPane alignment="center" hgap="10" vgap="10" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <I18nLabel alignment="CENTER" styleClass="custom-font-color, custom-title, ship-font" i18n="menu.title" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    </GridPane>
+    <GridPane alignment="center" hgap="10" vgap="10" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <ImageView GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <Image url="@/images/Anchor_100px.png"/>
+        </ImageView>
+        <ImageView GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Image url="@/images/Water_Transportation_100px.png"/>
+        </ImageView>
+        <ImageView GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <Image url="@/images/Anchor_100px.png"/>
+        </ImageView>
+    </GridPane>
+    <Separator GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <GridPane alignment="CENTER" vgap="2" GridPane.columnIndex="0" GridPane.rowIndex="3">
+        <ImageButton i18n="menu.start" url="/images/More_Than_50px.png" onAction="#handleStart" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <ImageButton i18n="menu.settings" url="/images/Settings_50px.png" onAction="#handleSettings" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <ImageButton i18n="menu.statistics" url="/images/Combo_Chart_50px.png" onAction="#handleStatistics" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <ImageButton i18n="menu.creators" url="/images/Male_User_50px.png" onAction="#handleCreators" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <ImageButton i18n="menu.close" url="/images/Delete_50px.png" onAction="#handleExit" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    </GridPane>
+</GridPane>

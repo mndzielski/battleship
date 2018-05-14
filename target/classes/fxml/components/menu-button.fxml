@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nButton?>
+<fx:root xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+         type="pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nButton" contentDisplay="RIGHT" mnemonicParsing="false"
+         prefWidth="350.0" style="-fx-base: thistle;" styleClass="primary-button">
+    <graphic>
+        <HBox alignment="CENTER" mouseTransparent="true">
+            <Label fx:id="label" styleClass="primary-label"/>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <ImageView fx:id="image"/>
+        </HBox>
+    </graphic>
+</fx:root>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nMenu?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nMenuItem?>
+<?import pl.edu.wat.wcy.isi.pz.battleship.components.i18n.I18nRadioMenuItem?>
+<VBox prefHeight="600.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pl.edu.wat.wcy.isi.pz.battleship.controllers.root.RootController">
+    <MenuBar VBox.vgrow="NEVER">
+        <I18nMenu mnemonicParsing="false" i18n="app.menu.action">
+            <I18nMenuItem mnemonicParsing="false" onAction="#handleClose" i18n="app.menu.close"/>
+        </I18nMenu>
+        <I18nMenu mnemonicParsing="false" i18n="app.menu.settings">
+            <fx:define>
+                <ToggleGroup fx:id="language"/>
+                <ToggleGroup fx:id="style"/>
+            </fx:define>
+            <I18nMenu mnemonicParsing="false" i18n="menu.settings.language">
+                <I18nRadioMenuItem fx:id="languagePl" mnemonicParsing="false" i18n="menu.settings.language.pl" toggleGroup="$language"/>
+                <I18nRadioMenuItem fx:id="languageEn" mnemonicParsing="false" i18n="menu.settings.language.en" toggleGroup="$language"/>
+            </I18nMenu>
+            <I18nMenu mnemonicParsing="false" i18n="menu.settings.style">
+                <I18nRadioMenuItem fx:id="styleSt" mnemonicParsing="false" i18n="menu.settings.style.first" toggleGroup="$style"/>
+                <I18nRadioMenuItem fx:id="styleNd" mnemonicParsing="false" i18n="menu.settings.style.second" toggleGroup="$style"/>
+                <I18nRadioMenuItem fx:id="styleRd" mnemonicParsing="false" i18n="menu.settings.style.third" toggleGroup="$style"/>
+            </I18nMenu>
+        </I18nMenu>
+    </MenuBar>
+    <GridPane fx:id="root" styleClass="root" VBox.vgrow="ALWAYS"
+              alignment="center" hgap="10" vgap="10">
+    </GridPane>
+</VBox>
